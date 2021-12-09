@@ -67,7 +67,7 @@ You can check it by press `Win + R` and type in `msconfig`. Open `Boot` tab and 
   
 
 After that, go to your debugger.  
-# The Debugger
+# The debugger
 Open WinDBG, go to `File`-> `Kernel Debug` (or press `Ctrl + K`). Go to `NET` tab and make sure all the information is matched like this:  
   
 ![Config](KernelDebugConfig.png)  
