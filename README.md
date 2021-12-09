@@ -13,7 +13,7 @@ On VMWare Workstation, open `VM` -> `HardWare` tab -> `Network Adapter` option -
   
 Get the debugger's IP: open `cmd` on the debugger and type `ipconfig`, get the `IPv4 Address` value. Mine is `192.168.247.128`.  
   
-From what I know, we can use different methods to setup: Through Serial Port or using network based (only available with win 8 or later). Using serial port is drastic slow so, if possible, please use network. I'm writing about the network method.  
+From what I know, we can use different methods to setup: Through Serial Port or using network based (only available with win 8 or later). Using serial port is drastically slow so, if possible, please use network. I'm writing about the network method.  
 
 ## The debuggee
 1. Open `cmd.exe` as an Adminstrator. First we need to create a debugging option when we power on the system so that we can debug it. In the `cmd` type:
