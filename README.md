@@ -35,7 +35,7 @@ bcdedit /set {96a58713-5943-11ec-9dfc-b46d074067e9} hostip 192.168.247.128 nodhc
 bcdedit /set {96a58713-5943-11ec-9dfc-b46d074067e9} key kernel.debug.via.net (you can choose the key of desire!)
 ```
   
-Type in `bcdedit` to see if our VM's Boot Manager have our newly created entry (and most important, the option `debug` has status `Yes`). Usually, it appears at the last of the ouput.  
+Type in `bcdedit` to see if our VM's Boot Manager have our newly created entry (and most important, the option `debug` has status `Yes`). Usually, it appears at the last of the output.  
 ```
 Windows Boot Loader
 -------------------
